@@ -30,8 +30,7 @@ $ composer require edamov/telegraph-api-php-client
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Pushok\AuthProvider\Token;
-
+//todo: write example
 ```
 
 ## Testing
