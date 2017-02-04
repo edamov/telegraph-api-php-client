@@ -25,9 +25,24 @@ namespace Telegraph;
 class PageViews
 {
     /**
-     * This object represents the number of page views for a Telegraph article.
+     * The number of page views for a Telegraph article.
      *
      * @var int
      */
-    private $views;
+    private $amount;
+
+    public function __construct(array $data)
+    {
+        $this->amount = count($data);
+    }
+
+    /**
+     * Get Page views amount.
+     *
+     * @return int
+     */
+    public function getAmount(): int
+    {
+        return $this->amount;
+    }
 }
