@@ -20,5 +20,5 @@ namespace Telegraph;
  */
 class InvalidContentTypeException extends \Exception
 {
-    private $message = 'Content type should be a string or array of NodeElement objects';
+    protected $message = 'Content type should be a string or array of NodeElement objects';
 }
